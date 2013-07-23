@@ -13,7 +13,7 @@ var connectionString =
 	"Driver={" + driver + "};" +
 	"Server=" + server + ";" +
 	"Database=" + database + ";" +
-	(useTrustedConnection === true ?
+	(trustedConnection === true ?
 		"Trusted_Connection=Yes;" :
 		"Uid=" + userId + ";Pwd=" + password + ";");
 exports.driver = driver;
