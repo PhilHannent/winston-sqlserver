@@ -5,6 +5,7 @@ var userId = '';
 var password = '';
 var database = 'winston';
 var trustedConnection = true;
+var table = 'dbo.NodeLogs';
 
 
 
@@ -23,3 +24,4 @@ exports.password = password;
 exports.database = database;
 exports.trustedConnection = trustedConnection;
 exports.connectionString = connectionString;
+exports.table = table;
