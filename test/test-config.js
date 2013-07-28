@@ -6,6 +6,7 @@ var password = '';
 var database = 'winston';
 var trustedConnection = true;
 var table = 'dbo.NodeLogs';
+var table2 = 'dbo.NodeLogs2';
 
 
 
@@ -25,3 +26,4 @@ exports.database = database;
 exports.trustedConnection = trustedConnection;
 exports.connectionString = connectionString;
 exports.table = table;
+exports.table2 = table2;
