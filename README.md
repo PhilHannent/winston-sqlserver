@@ -27,5 +27,5 @@ This transport takes the following options:
 
 Unit tests can be found in the `test` directory and executed with `npm test`.
 They are driven by [mocha](//github.com/visionmedia/mocha) and [should](//github.com/visionmedia/should.js).
-The default settings assume SQL Express has been installed and `CreateLogTable.sql` has been run in a database called **winston** (connection string: `Driver={SQL Server Native Client 11.0};Server=.\SQLEXPRESS;Database=winston;Trusted_Connection=Yes;`).
+The default settings assume SQL Express has been installed and `CreateLogTable.sql` has been run in a database called **winston** (connection string: 'Driver={SQL Server Native Client 11.0};Server=.\SQLEXPRESS;Database=winston;Trusted_Connection=Yes;').
 You can change this by editing the variables in `test/test-config.js`.
