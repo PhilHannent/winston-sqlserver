@@ -5,10 +5,8 @@ This module allows you to log your [winston](//github.com/flatiron/winston/) mes
 ## Installation
 
 1. Follow the steps in [How to Access Windows Azure SQL Database from Node.js](http://www.windowsazure.com/en-us/develop/nodejs/how-to-guides/sql-database/) to get the [node-sqlserver](//github.com/WindowsAzure/node-sqlserver/) package installed.
-2. Use npm to install [winston](//github.com/flatiron/winston/) and this package.
+2. Run `npm install winston-sqlserver`.
 3. In the database you will use for logging, execute `CreateLogTable.sql` to create a table of the form necessary for this package.
-
-More coming soon.
 
 ## Usage
 
@@ -27,7 +25,3 @@ Unit tests can be found in the `test` directory.
 They require [mocha](//github.com/visionmedia/mocha) and [should](//github.com/visionmedia/should.js) to be installed via npm.
 Testing can be configured with variables in test-config.js.
 The default settings assume SQL Express has been installed and `CreateLogTable.sql` has been run in a database called **winston**.
-
-## Thanks
-
-Developed based on the [winston-sqlite](//github.com/floatingLomas/winston-sqlite/), [winston-mail](//github.com/wavded/winston-mail/), [winston-skywriter](https://github.com/pofallon/winston-skywriter/) projects as references.
