@@ -10,7 +10,7 @@
     "sqlserver",
     "node-sqlserver"
   ],
-  "homepage": "http://github.com/gonerandom/winston-sqlserver",
+  "homepage": "https://github.com/gonerandom/winston-sqlserver",
   "bugs": {
     "url": "https://github.com/gonerandom/winston-sqlserver/issues"
   },
