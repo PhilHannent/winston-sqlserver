@@ -1,6 +1,6 @@
 {
   "name": "winston-sqlserver",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A SQL Server transport for winston",
   "keywords": [
     "logging",
@@ -8,7 +8,8 @@
     "database",
     "mssql",
     "sqlserver",
-    "node-sqlserver"
+    "node-sqlserver",
+    "msnodesql"
   ],
   "homepage": "https://github.com/gonerandom/winston-sqlserver",
   "bugs": {

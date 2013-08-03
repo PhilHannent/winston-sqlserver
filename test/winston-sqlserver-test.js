@@ -1,6 +1,6 @@
 require('mocha');
 var should = require('should');
-var sql = require('node-sqlserver');
+var sql = require('msnodesql');
 var config = require('./test-config');
 var winston = require('winston');
 require('../lib/winston-sqlserver.js');
