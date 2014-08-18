@@ -11,19 +11,39 @@ var table2 = 'dbo.NodeLogs2';
 
 
 // Generate connection string and exports
-var connectionString =
-	"Driver={" + driver + "};" +
-	"Server=" + server + ";" +
-	"Database=" + database + ";" +
-	(trustedConnection === true ?
-		"Trusted_Connection=Yes;" :
-		"Uid=" + userId + ";Pwd=" + password + ";");
+//var connectionString =
+//    "Driver={" + driver + "};" +
+//    "Server=" + server + ";" +
+//    "Database=" + database + ";" +
+//    (trustedConnection === true ?
+//        "Trusted_Connection=Yes;" :
+//        "Uid=" + userId + ";Pwd=" + password + ";");
 exports.driver = driver;
 exports.server = server;
 exports.userId = userId;
 exports.password = password;
 exports.database = database;
 exports.trustedConnection = trustedConnection;
-exports.connectionString = connectionString;
+exports.connectionConfig = {
+    "userName": "XXXX",
+    "password": "XXXX",
+    "server": "localhost",
+    "options": {
+        "encrypt": true,
+        "database": "dbTest",
+        "port": 1433,
+        "rowCollectionOnRequestCompletion": true
+    }
+};
+
+
+
+//
+//{
+//    server: 'localhost',
+//    options: {
+//        database: 'winston'
+//    }
+//};
 exports.table = table;
 exports.table2 = table2;

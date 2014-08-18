@@ -1,51 +1,49 @@
 {
-  "name": "winston-sqlserver",
-  "version": "0.1.1",
-  "description": "A SQL Server transport for winston",
-  "keywords": [
-    "logging",
-    "sql",
-    "database",
-    "mssql",
-    "sqlserver",
-    "node-sqlserver",
-    "msnodesql"
-  ],
-  "homepage": "https://github.com/gonerandom/winston-sqlserver",
-  "bugs": {
-    "url": "https://github.com/gonerandom/winston-sqlserver/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/gonerandom/winston-sqlserver/master/LICENSE"
-    }
-  ],
-  "author": {
-    "name": "Gone Random",
-    "email": "gonerandom1@gmail.com"
-  },
-  "main": "./lib/winston-sqlserver.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/gonerandom/winston-sqlserver.git"
-  },
-  "dependencies": {
-    "moment": "2.1.x",
-    "winston": "0.7.x"
-  },
-  "devDependencies": {
-    "mocha": "1.12.x",
-    "should": "1.2.x"
-  },
-  "optionalDependencies": {
-    "msnodesql": "0.2.x"
-  },
-  "scripts": {
-    "test": "mocha test/winston-sqlserver-test.js"
-  },
-  "engines": {
-    "node": ">= 0.6.0"
-  },
-  "os" : [ "win32" ]
+    "name": "winston-sqlserver",
+    "version": "0.1.1",
+    "description": "A SQL Server transport for winston",
+    "keywords": [
+        "logging",
+        "sql",
+        "database",
+        "mssql",
+        "sqlserver",
+        "node-sqlserver",
+        "tedious"
+    ],
+    "homepage": "https://github.com/gonerandom/winston-sqlserver",
+    "bugs": {
+        "url": "https://github.com/gonerandom/winston-sqlserver/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.github.com/gonerandom/winston-sqlserver/master/LICENSE"
+        }
+    ],
+    "author": {
+        "name": "Gone Random",
+        "email": "gonerandom1@gmail.com"
+    },
+    "main": "./lib/winston-sqlserver.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/gonerandom/winston-sqlserver.git"
+    },
+    "dependencies": {
+        "moment": "2.1.x",
+        "winston": "0.7.x",
+        "tedious": "1.3.3"
+    },
+    "devDependencies": {
+        "mocha": "1.12.x",
+        "should": "1.2.x"
+    },
+    "scripts": {
+        "test": "mocha test/winston-sqlserver-test.js"
+    },
+    "engines": {
+        "node": ">= 0.6.0"
+    },
+    "os" : [ "win32" ]
 }
