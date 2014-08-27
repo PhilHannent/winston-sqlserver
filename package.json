@@ -33,7 +33,8 @@
     "dependencies": {
         "moment": "2.1.x",
         "winston": "0.7.x",
-        "tedious": "1.3.3"
+        "tedious": "1.3.3",
+        "generic-pool": "*"
     },
     "devDependencies": {
         "mocha": "1.12.x",
